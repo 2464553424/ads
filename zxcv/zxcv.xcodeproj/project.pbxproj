@@ -16,6 +16,7 @@
 		F12704ED214F8924008AC793 /* zxcvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12704EC214F8924008AC793 /* zxcvTests.m */; };
 		F12704F8214F8924008AC793 /* zxcvUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12704F7214F8924008AC793 /* zxcvUITests.m */; };
 		F1270508214F894A008AC793 /* zxc.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270507214F894A008AC793 /* zxc.m */; };
+		F127050C214F89BF008AC793 /* asd.m in Sources */ = {isa = PBXBuildFile; fileRef = F127050B214F89BF008AC793 /* asd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F12704F9214F8924008AC793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1270506214F894A008AC793 /* zxc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zxc.h; sourceTree = "<group>"; };
 		F1270507214F894A008AC793 /* zxc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zxc.m; sourceTree = "<group>"; };
+		F127050A214F89BF008AC793 /* asd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asd.h; sourceTree = "<group>"; };
+		F127050B214F89BF008AC793 /* asd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		F12704D2214F8923008AC793 /* zxcv */ = {
 			isa = PBXGroup;
 			children = (
+				F1270509214F89B7008AC793 /* san  */,
 				F1270505214F8940008AC793 /* 未命名文件夹 */,
 				F12704D3214F8923008AC793 /* AppDelegate.h */,
 				F12704D4214F8923008AC793 /* AppDelegate.m */,
@@ -143,6 +147,15 @@
 				F1270507214F894A008AC793 /* zxc.m */,
 			);
 			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		F1270509214F89B7008AC793 /* san  */ = {
+			isa = PBXGroup;
+			children = (
+				F127050A214F89BF008AC793 /* asd.h */,
+				F127050B214F89BF008AC793 /* asd.m */,
+			);
+			path = "san ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				F1270508214F894A008AC793 /* zxc.m in Sources */,
 				F12704E3214F8924008AC793 /* main.m in Sources */,
 				F12704D5214F8923008AC793 /* AppDelegate.m in Sources */,
+				F127050C214F89BF008AC793 /* asd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
